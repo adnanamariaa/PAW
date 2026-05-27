@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{639ED6FE-15CC-4D84-8C71-B5557B869256}</ProjectGuid>
+    <ProjectGuid>{DCE7BEAE-9756-43D1-B66D-68AF1112B68F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Seminar2</RootNamespace>
-    <AssemblyName>Seminar2</AssemblyName>
+    <RootNamespace>Seminar3</RootNamespace>
+    <AssemblyName>Seminar3</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bilet.cs" />
-    <Compile Include="BiletSenior.cs" />
-    <Compile Include="BiletStudent.cs" />
-    <Compile Include="BiletVip.cs" />
-    <Compile Include="CasaBilete.cs" />
-    <Compile Include="Client.cs" />
-    <Compile Include="IPretCalculabil.cs" />
-    <Compile Include="IValidabil.cs" />
+    <Compile Include="Comanda.cs" />
+    <Compile Include="ComandaLivrataEventArgs.cs" />
+    <Compile Include="ComandaSchimbatStareEventArgs.cs" />
+    <Compile Include="Depozit.cs" />
+    <Compile Include="NotificareClient.cs" />
+    <Compile Include="NotificareService.cs" />
+    <Compile Include="Produs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TipFilm.cs" />
+    <Compile Include="StareComanda.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
